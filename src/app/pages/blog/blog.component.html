@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="header-block">
+    <div class="container">
+        <div class="hd__flex d-f">
+            <div class="hd__title">
+                <span>Featured Post</span>
+                <h1>Step-by-step guide to choosing great font pairs</h1>
+                <p>By <b>James West</b>  |  May 23, 2022 </p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <button type="button">Read More &#62;</button>
+            </div>
+            <div class="hd__img">
+                <img src="assets/images/image9.png" alt="image">
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="section1">
+        <div class="container">
+            <div class="section1__title">
+                <h2>All posts</h2>
+            </div>
+            <div class="section1__posts">
+                <app-all-posts [elements]="allPostsDatas"></app-all-posts>
+            </div>
+            <div class="section1__btns">
+                <a (click)="prewPage()"> &#60; Prev</a>
+                <a (click)="nextPage()">Next &#62;</a>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="section2__title">
+                <h3>All Categories</h3>
+            </div>
+            <app-choose-category [elements]="chooseDatas"></app-choose-category>
+        </div>
+    </section>
+    <app-join-our-team [elements]="joinOurDatas"></app-join-our-team>
+</main>
+<app-footer></app-footer>

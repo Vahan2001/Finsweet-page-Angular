@@ -1,0 +1,22 @@
+/* SECTION 2 CSS START */
+
+.section2-title > h5{
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #000000;
+}
+@media screen and (max-width: 380px) {
+    .section2-title > h5 {
+        font-size: 23px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .section2 {
+        padding-bottom: 30px;
+    }
+}
+

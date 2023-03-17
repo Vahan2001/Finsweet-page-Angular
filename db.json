@@ -1,0 +1,192 @@
+{
+  "chooseDatas": [
+    {
+      "title": "Business",
+      "image": "assets/images/Icon1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "image": "assets/images/Icon2.png",
+      "title": "Startup",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 3,
+      "image": "assets/images/Icon3.png",
+      "title": "Economy",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    },
+    {
+      "id": 4,
+      "image": "assets/images/Icon4.png",
+      "title": "Technology",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+    }
+  ],
+  "authorsDatas": [
+    {
+      "id": 1,
+      "image": "assets/images/image4.png",
+      "title": "Floyd Miles",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 2,
+      "image": "assets/images/image5.png",
+      "title": "Dianne Russell",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 3,
+      "image": "assets/images/image6.png",
+      "title": "Jenny Wilson",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 4,
+      "image": "assets/images/image7.png",
+      "title": "Leslie Alexander",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 5,
+      "image": "assets/images/image18.png",
+      "title": "Guy Hawkins",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 6,
+      "image": "assets/images/image19.png",
+      "title": "Eleanor Pena",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 7,
+      "image": "assets/images/image20.png",
+      "title": "Robert Fox",
+      "description": "Content Writer @Company"
+    },
+    {
+      "id": 8,
+      "image": "assets/images/image21.png",
+      "title": "Jacob Jones",
+      "description": "Content Writer @Company"
+    }
+  ],
+  "joinOurDatas": [
+    {
+      "id": 1,
+      "title": "Join our team to be a part of our story",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "btnText": "Join Now"
+    }
+  ],
+  "allPostsDatas": [
+    {
+      "id": 1,
+      "title": "Design tips for designers that cover everything you need",
+      "subtitle": "Startup",
+      "image": "assets/images/image10.png",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 2,
+      "title": "How to build rapport with your web design clients",
+      "subtitle": "BUSINESS",
+      "image": "assets/images/image11.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 3,
+      "title": "Logo design trends to avoid in 2022",
+      "subtitle": "Startup",
+      "image": "assets/images/image12.png",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 4,
+      "title": "8 Figma design systems you can download for free today",
+      "subtitle": "TECHNOLOGY",
+      "image": "assets/images/image13.png",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 5,
+      "title": "Font sizes in UI design: The complete guide to follow",
+      "subtitle": "ECONOMY",
+      "image": "assets/images/image10.png",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 6,
+      "title": "Top 6 free website mockup tools 2022",
+      "subtitle": "Business",
+      "image": "assets/images/image10.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 7,
+      "title": "Step-by-step guide to choosing great font pairs",
+      "subtitle": "Business",
+      "image": "assets/images/image10.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 8,
+      "title": "Ten free foogle fonts that you should use",
+      "subtitle": "Business",
+      "image": "assets/images/image10.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "title": "What did I learn from doing 50+ design sprints?",
+      "subtitle": "Business",
+      "image": "assets/images/image10.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022",
+      "id": 9
+    },
+    {
+      "id": 10,
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "subtitle": "Business",
+      "image": "assets/images/image2.jpg",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "author": " John Doe",
+      "authordate": "   l   May 23, 2022"
+    },
+    {
+      "id": 11,
+      "title": "Font sizes in UI design: The complete guide to follow",
+      "subtitle": "BUSINESS",
+      "image": "assets/images/image29.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 12,
+      "title": "How to build rapport with your web design clients",
+      "subtitle": "ECONOMY",
+      "image": "assets/images/image30.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]
+}

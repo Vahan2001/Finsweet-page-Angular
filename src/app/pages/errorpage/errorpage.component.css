@@ -1,0 +1,77 @@
+main {
+    background-color: #282b58;
+}
+section {
+    background-image: url('/assets/images/error.jpg');
+    /* height: 550px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.section__text h1 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    color: #232536;
+    text-transform: uppercase;
+    padding: 50px 0 360px;
+}
+.section__text a {
+    margin-bottom: 50px;
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    padding: 16px 48px;
+    background: #FFD050;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+}
+.section__text a:hover {
+    transform: scale(1.2);
+    color: #232536;
+    background-color: orange;
+}
+@media screen and (max-width: 1330px) {
+    .section__text h1 {
+        padding: 50px 0 280px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .section__text h1 {
+        padding: 50px 0 200px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .section__text h1 {
+        padding: 24px 0 35%;
+        font-size: 35px;
+    }
+    .section__text a {
+        font-size: 13px;
+        line-height: 15px;
+        color: #232536;
+        padding: 11px 32px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .section__text a {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section__text h1 {
+        font-size: 20px;
+        padding: 14px 0 35%;
+
+    }
+    .section__text a {
+        margin-bottom: 15px;
+        padding: 5px 12px;
+    }
+}

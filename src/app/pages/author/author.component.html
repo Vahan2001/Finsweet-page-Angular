@@ -1,0 +1,37 @@
+<app-header></app-header>
+<div class="header-block">
+    <div class="container">
+        <div class="header-block__flex d-f">
+            <div class="header-b__img">
+                <img src="./assets/images/image27.png" alt="image">
+            </div>
+            <div class="header-b__text">
+                <h1>Hey there, I’m Andrew Jonhson and welcome to my Blog</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Non
+                    blandit massa enim nec. Scelerisque viverra mauris in aliquam sem.
+                    At risus viverra adipiscing at in tellus.</p>
+                <a href="https://www.facebook.com/"><img src="./assets/images/Icon8.png" alt="Facebook"></a> 
+                <a href="https://twitter.com/?lang=ru"><img src="./assets/images/Icon7.png" alt="Twitter"></a> 
+                <a href="https://www.instagram.com/"><img src="./assets/images/Icon6.png" alt="Instagram"></a> 
+                <a href="https://www.linkedin.com/"><img src="./assets/images/Icon5.png" alt="LinkedIn"></a> 
+            </div>
+        </div>
+        <div class="header-block__img">
+            <img src="./assets/images/image28.png" alt="img">
+        </div>
+    </div>
+</div>
+<main>
+    <section class="section1">
+        <div class="container">
+            <div class="section1__block">
+                <div class="section1__title">
+                    <h2>My Posts</h2>
+                </div>
+                <app-all-posts [elements]="allPostsDatas"></app-all-posts>
+            </div>
+        </div>
+    </section>
+</main>
+<app-footer></app-footer>

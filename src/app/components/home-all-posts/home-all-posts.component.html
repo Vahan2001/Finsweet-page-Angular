@@ -1,0 +1,8 @@
+<div class="section1__blocks" *ngFor="let item of elements" >
+    <a [routerLink]="['/blogpost', item.id]">
+        <div class="block2__block1">
+            <p>By <span>{{item.author}}</span>{{item.authordate}}</p>
+            <p>{{item.description}}</p>
+        </div>
+    </a>
+</div>

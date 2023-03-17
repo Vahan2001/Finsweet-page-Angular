@@ -1,0 +1,45 @@
+<app-header></app-header>
+<main>
+    <section class="section1">
+        <div class="container">
+            <div class="section1__title t-c">
+                <b>Contact us</b>
+                <h1>Let’s Start a Conversation</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+            <div class="section1-block1 d-f">
+                <div class="s1-b1-block">
+                    <p>Working hours</p>
+                    <b>Monday To Friday</b>
+                    <b>9:00 AM to 8:00 PM</b>
+                    <p>Our Support Team is available 24/7</p>
+                </div>
+                <div class="s1-b1-block">
+                    <p>Contact Us</p>
+                    <b>020 7993 2905</b>
+                    <a href="#">hello@finsweet.com</a>
+                </div>
+            </div>
+            <div class="s1-form__block">
+                <form [formGroup]="form">
+                    <input type="text" formControlName="name" placeholder="Full Name">
+                    <span *ngIf="form.get('name')?.hasError('required') && (form.get('name')?.dirty || form.get('name')?.touched)">The Name is required</span>
+                    <span *ngIf="form.get('name')?.hasError('minlength') && (form.get('name')?.dirty || form.get('name')?.touched)">The Name must be min 3 symbol</span>
+                    <span *ngIf="form.get('name')?.hasError('maxlength') && (form.get('name')?.dirty || form.get('name')?.touched)">The Name must be max 8 symbol</span>
+                    <input type="email" formControlName="email" placeholder="Your Email">
+                    <span *ngIf="form.get('email')?.hasError('required') && (form.get('email')?.dirty || form.get('email')?.touched)">The Email is required</span>
+                    <span *ngIf="form.get('email')?.hasError('pattern') && (form.get('email')?.dirty || form.get('email')?.touched)">This Email address is not entered correctly</span>
+                    <select formControlName="query">
+                        <option disabled >Query Related</option>
+                        <option value="">Query Related</option>
+                        <option value="">Query Related</option>
+                    </select>
+                    <textarea name="message" placeholder="Message" formControlName="message" rows="4">Message</textarea>
+                    <button [disabled]="form.invalid" type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<app-footer></app-footer>

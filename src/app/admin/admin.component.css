@@ -1,0 +1,36 @@
+.admin__block {
+    background-image: url('/assets/images/admin.jpg');
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.section1 ul li button {
+    transition-duration: 0.5s;
+}
+.section1 ul li button:hover {
+    background-color: #3fb598;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+.active {
+    background-color: #3fb560;
+}
+.menu {
+    width: 15%;
+    background-color: #3f51b5;
+    color: #fff;
+    box-shadow: 5px 5px 5px #939393;
+    height: 55vmax;
+}
+.section1 {
+    gap: 2%;
+}
+ul > li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+.table {
+    width: 75%
+}
+

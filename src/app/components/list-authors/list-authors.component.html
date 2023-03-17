@@ -1,0 +1,19 @@
+<a routerLink="/author">
+    <div class="s5__flex d-f">
+        <div class="s5__block1" *ngFor="let item of elements">
+            <div class="s5__b1-img">
+                <img src={{item.image}} alt="image">
+            </div>
+            <div class="s5__b1-text">
+                <h5>{{item.title}}</h5>
+                <p>{{item.description}}</p>
+            </div>
+            <div class="s5__icons">
+                <a href="https://www.facebook.com/"><img src="assets/images/Icon8.png" alt="Facebook"></a>
+                <a href="https://twitter.com/?lang=ru"><img src="assets/images/Icon7.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/"><img src="assets/images/Icon6.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/"><img src="assets/images/Icon5.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+</a>

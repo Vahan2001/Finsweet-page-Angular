@@ -1,0 +1,9 @@
+<div class="block1" *ngFor="let item of elements">
+    <div class="block1__image">
+        <img src={{item.image}} alt="image">
+    </div>
+    <span>By <a href="#"> {{item.author}}</a> {{item.authordate}}</span>
+    <p>{{item.title}}</p>
+    <p>{{item.description}}</p>
+    <a [routerLink]="['/blogpost', item.id]">Read More &#62;</a>
+</div>

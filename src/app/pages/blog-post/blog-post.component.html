@@ -1,0 +1,14 @@
+<app-header></app-header>
+<main>
+    <app-blog-post-posts [elements]="allPostsDatas"></app-blog-post-posts>
+    <section class="section2">
+        <div class="container">
+            <div class="section2-title">
+                <h5>What to read next</h5>
+            </div>
+                <app-read-next [elements]="readNextDatas"></app-read-next>
+            </div>
+    </section>
+    <app-join-our-team [elements]="joinOurDatas"></app-join-our-team>
+</main>
+<app-footer></app-footer>

@@ -1,0 +1,27 @@
+<div class="login__block">
+    <div id="form_wrapper">
+        <div id="form_left">
+            <img src="assets/images/LoginIcon.png"
+                alt="computer icon" />
+        </div>
+        <div id="form_right">
+            <h1>Member Login</h1>
+            <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+                <div class="input__container">
+                    <i class="fas fa-envelope"></i>
+                    <input placeholder="Email" formControlName="email" type="email" id="field_email" class="input__field"/>
+                </div>
+                <p *ngIf="loginForm.get('email')?.hasError('required') && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)">The Email is required</p>
+                <p *ngIf="loginForm.get('email')?.hasError('pattern') && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)">This Email address is not entered correctly</p>
+                <div class="input__container">
+                    <i class="fas fa-lock"></i>
+                    <input placeholder="Password" formControlName="password" type="password" id="field_password"
+                        class="input__field" />
+                </div>
+                <p *ngIf="loginForm.get('password')?.hasError('required') && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)">The Password is required</p>
+                <p *ngIf="loginForm.get('password')?.hasError('pattern') && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)">The Password is false </p>
+                <button [disabled]="loginForm.invalid" type="submit" id="input__submit" class="input__field">Login</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,187 @@
+/* MAIN CSS START*/
+/* SECTION 1 CSS START*/
+.section1 {
+    padding-bottom: 128px;
+}
+.section1__title > b {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #232536;
+    padding-top: 128px;
+    display: block;
+}
+.section1__title > h1 {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #232536;
+    padding: 12px 0 24px;
+}
+.section1__title > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6D6E76;
+    padding: 0px 255px;
+    margin-bottom: 64px;
+}
+.section1-block1 {
+    background: #592EA9;
+    margin: 0 250px 32px;
+}
+.s1-b1-block {
+    padding: 48px 64px;
+}
+.s1-b1-block > p:nth-of-type(1) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+.s1-b1-block > b {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    display: block;
+    padding-top: 16px;
+}
+.s1-b1-block > p:nth-of-type(2) {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+.s1-b1-block > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.s1-b1-block > a:hover {
+    color: orange;
+}
+.s1-form__block {
+    margin: 0 250px;
+}
+.s1-form__block input, .s1-form__block textarea, .s1-form__block select{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+    display: block;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 22px;
+    outline: none;
+}
+.s1-form__block button {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #232536;
+    background: #FFD050;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 16px;
+}
+.s1-form__block button:hover {
+    color: blue;
+    cursor: pointer;
+    background-color: orange;
+}
+.s1-form__block > form > span {
+    display: block;
+    padding-bottom: 10px;
+    color: red;
+    font-family: 'Sen';
+    font-style: normal;
+}
+input.ng-dirty.ng-invalid {
+    border: 2px solid red;
+}
+/* SECTION 1 CSS END*/
+/* MAIN CSS END*/
+/* MEDIA */
+@media screen and (max-width: 1150px) {
+    .section1-block1 {
+        margin: 0 70px 32px;
+    }
+    .s1-form__block {
+        margin: 0 140px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .section1-block1 {
+        margin: 0 0px 32px;
+    }
+    .s1-form__block {
+        margin: 0 50px;
+    }
+    .section1__title > p {
+        padding: 0px 70px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .section1-block1 {
+        flex-wrap: wrap;
+    }
+    .s1-b1-block {
+        padding: 23px 111px;
+    }
+    .s1-form__block {
+        margin: 0 5px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .section1__title > b {
+        padding-top: 40px;
+    }
+    .section1__title > h1 {
+        font-size: 28px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+    .section1__title > p {
+        padding: 0px 15px;
+    }
+    .s1-b1-block {
+        padding: 23px 40px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .section1 {
+        padding-bottom: 50px;
+    }
+}

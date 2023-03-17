@@ -1,0 +1,22 @@
+.s1-blocks2__block {
+    padding: 24px;
+    margin-bottom: 24px;
+    border: 1px solid #C1C1C3;
+    transition-duration: 0.5s;
+    width: 296px;
+}
+.s1-blocks2__block:hover {
+    background-color: #FFD050;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.s1-blocks2__block > p {
+    font-family: 'Sen';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;   
+    letter-spacing: -1px;
+    color: #232536;
+    padding-left: 16px;
+}

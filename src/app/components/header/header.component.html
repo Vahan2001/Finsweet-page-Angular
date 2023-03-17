@@ -1,0 +1,40 @@
+<header class="header">
+    <div class="nav">
+        <div class="container">
+            <div class="nav__block d-f">
+                <div class="nav__logo">
+                    <a routerLink="/home"><img src="assets/images/Logo.png" alt="Logo-image"></a>
+                </div>
+                <div class="nav__bar">
+                    <ul>
+                        <li *ngFor="let menuItem of menuArr">
+                            <a routerLink={{menuItem.url}} routerLinkActive="active">{{menuItem.label}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__button">
+                    <button>Subcsribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-menu__mobile bg__col">
+        <div class="menu-text">
+            <label for="toggle-menu"><img src="/assets/images/mobmenu.png" alt="menuimg"></label>
+        </div>
+        <input type="checkbox" hidden id="toggle-menu">
+        <div class="mobile-menu__block">
+            <div class="text-right"><label for="toggle-menu">X</label></div>
+            <div>
+                <ul>
+                    <li class="mobile-menu__block-item" *ngFor="let menuItem of menuArr">
+                        <a routerLink={{menuItem.url}} routerLinkActive="active">{{menuItem.label}}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__button nav__button-menu">
+                <button>Subcsribe</button>
+            </div>
+        </div>
+    </div>
+</header>

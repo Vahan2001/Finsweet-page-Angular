@@ -1,0 +1,142 @@
+<app-header></app-header>
+<div class="header__block">
+    <div class="header__block-color">
+        <div class="container">
+            <div class="header__title">
+                <span>Posted on startup</span>
+                <h1>Step-by-step guide to choosing great font pairs</h1>
+                <p>By <b>James West</b>  |  May 23, 2022 </p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                <button type="button">Read More &#62;</button>
+            </div>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="section__1">
+        <div class="container">
+            <div class="section1-flex d-f">
+                <div class="section1__block1">
+                    <h3>Featured Post</h3>
+                    <app-featured [elements]="onePostDatas"></app-featured>
+                </div>
+                <div class="section1__block2">
+                    <h3>All Posts</h3>
+                    <a [routerLink]="['/blog']">View All</a>
+                    <app-home-all-posts [elements]="allPostDatas"></app-home-all-posts>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__2">
+        <div class="container">
+            <div class="section2__block1 d-f">
+                <div class="white-block"></div>
+                <div class="yellow-block"></div>
+                <div class="blue-block"></div>
+            </div>  
+            <div class="section2__block2">
+                <div class="s2__b2-flex d-f">
+                    <div class="s2__b2-block1">
+                        <span>ABOUT US</span>
+                        <p>We are a community of content writers who share their learnings</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a routerLink="/aboutus">Read More &#62;</a>
+                    </div>
+                    <div class="s2__b2-block2">
+                        <span>Our mision</span>
+                        <p>Creating valuable content for creatives all around the world</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section__3">    
+        <div class="container">
+            <div class="section3__title">
+                <h3>Choose A Catagory</h3>
+            </div>
+                <app-choose-category [elements]="chooseDatas"></app-choose-category>
+            </div>
+    </section>
+    <section class="section4">
+        <div class="container">
+            <div class="s4-bc">
+                <div class="s4-block">
+                    <span>Why we started</span>
+                    <h4>It started out as a simple idea and evolved into our passion</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                     <a href="#">Discover our story &#62;</a>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section class="section5">
+        <div class="container">
+            <div class="section5__title">
+                <h4>List of Authors</h4>
+            </div>
+            <app-list-authors [elements]="authorsDatas"></app-list-authors>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="container">
+            <div class="s6__flex d-f">
+                <div class="s6__b1-title">
+                    <p>We are</p>
+                    <h5>Featured in</h5>
+                </div>
+                <div class="s6__logo t-c">
+                    <img src="assets/images/Logo1.png" alt="Logo-image">
+                </div>
+                <div class="s6__logo t-c">
+                    <img src="assets/images/Logo2.png" alt="Logo-image">
+                </div>
+                <div class="s6__logo t-c">
+                    <img src="assets/images/Logo3.png" alt="Logo-image">
+                </div>
+                <div class="s6__logo t-c">
+                    <img src="assets/images/Logo4.png" alt="Logo-image">
+                </div>
+                <div class="s6__logo t-c">
+                    <img src="assets/images/Logo5.png" alt="Logo-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section7">
+        <div class="container">
+            <div class="s7__flex d-f">
+                <div class="s7__b1">
+                    <div class="s7__b1-title">
+                        <span>TESTIMONIALs</span>
+                        <h4>What people say about our blog</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="s7__b2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="s7__b2-flex d-f">
+                        <div class="s7__b2-fim">
+                            <img src="assets/images/Image8.png" alt="image">
+                        </div>
+                        <div class="s7__b2-ft">
+                            <h6>Jonathan Vallem</h6>
+                            <p>New york, USA</p>
+                        </div>
+                        <div class="s7__b2-btn">
+                            <img src="assets/images/Backbutton.png" alt="Backbutton">
+                            <img src="assets/images/NextButton.png" alt="NextButton">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <app-join-our-team [elements]="joinOurDatas"></app-join-our-team>
+</main>
+<app-footer></app-footer>

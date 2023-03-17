@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class="header-block t-c">
+    <div class="container">
+        <div class="header-block__title">
+            <h1>Business</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <b>Blog &#62; Business</b>
+        </div>
+    </div>
+</div>
+<main>
+    <section class="section1">
+        <div class="container">
+            <div class="section1-flex d-f">
+                <app-categoryallposts [elements]="allPostsDatas"></app-categoryallposts>
+                <div class="s1-blocks2">
+                    <h5>Categories</h5>
+                    <app-child-category [elements]="chooseDatas"></app-child-category>
+                    <h4>All Tags</h4>
+                    <div class="block-tags">
+                        <div class="block-tags1">
+                            <a href="#">Business</a>
+                            <a href="#">Experience</a>
+                        </div>
+                       <div class="block-tags1">
+                            <a href="#">Screen</a>
+                            <a href="#">Technology</a>
+                       </div>
+                       <div class="block-tags1">
+                            <a href="#">Marketing</a>
+                            <a href="#">Life</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>                      
+<app-footer></app-footer>

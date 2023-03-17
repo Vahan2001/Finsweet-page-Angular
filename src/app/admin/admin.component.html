@@ -1,0 +1,30 @@
+<div class="admin__block">
+    <header>
+        <mat-toolbar color="primary">
+            <button routerLink="/home" routerLinkActive="active" mat-icon-button class="example-icon"
+                aria-label="Example icon-button with menu icon">
+                <mat-icon>home</mat-icon>
+            </button>
+            <span>Finsweet</span>
+            <span class="example-spacer"></span>
+            <button mat-raised-button (click)="logOut()" color="warn">Log Out</button>
+        </mat-toolbar>
+    </header>
+    <main>
+        <section class="d-f section1">
+            <div class="menu t-c">
+                <ul>
+                    <li><button routerLink="chooseadmin" routerLinkActive="active" mat-fab extended
+                            color="warn"><mat-icon>build</mat-icon>Category</button></li>
+                    <li><button routerLink="authorsadmin" routerLinkActive="active" mat-fab extended
+                            color="warn"><mat-icon>build</mat-icon>Authors</button></li>
+                    <li><button routerLink="allpostsadmin" routerLinkActive="active" mat-fab extended
+                            color="warn"><mat-icon>build</mat-icon>All Posts</button></li>
+                </ul>
+            </div>
+            <div class="table">
+                <router-outlet></router-outlet>
+            </div>
+        </section>
+    </main>
+</div>

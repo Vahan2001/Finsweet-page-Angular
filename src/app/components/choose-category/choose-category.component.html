@@ -1,0 +1,13 @@
+<a routerLink="/category">
+<div class="section3__flex d-f">
+        <div class="section3__b1" *ngFor="let item of elements">
+            <div class="img__block">
+                <img src={{item.image}} alt="Image-icon">
+            </div>
+            <div class="text-block">
+                <h5>{{item.title}}</h5>
+                <p>{{item.description}}</p>
+            </div>
+        </div>  
+    </div>
+</a>

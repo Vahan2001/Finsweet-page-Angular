@@ -1,0 +1,8 @@
+<div class="section2-flex d-f">
+    <div class="section2__block" *ngFor="let item of elements">
+        <img src={{item.image}} alt="image">
+        <p>By <b>{{item.author}}</b>  {{item.authordate}} </p>
+        <h4>{{item.title}}</h4>
+        <p>{{item.description}}</p>
+    </div>
+</div>

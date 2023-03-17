@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('assets/fonts/fonts.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1279px;
+    margin: auto;
+}
+.d-f {
+    display: flex;
+}
+.t-c {
+    text-align: center;
+}
+@media screen and (max-width: 1330px) {
+    .container {
+        width: 1100px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .container {
+        width: 900px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .container {
+        width: 700px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .container {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .container {
+        width: 360px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container {
+        width: 90%;
+    }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
