@@ -19,7 +19,6 @@
                         class="input__field" />
                 </div>
                 <p *ngIf="loginForm.get('password')?.hasError('required') && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)">The Password is required</p>
-                <p *ngIf="loginForm.get('password')?.hasError('pattern') && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)">The Password is false </p>
                 <button [disabled]="loginForm.invalid" type="submit" id="input__submit" class="input__field">Login</button>
             </form>
         </div>
